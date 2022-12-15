@@ -15,7 +15,6 @@ The number of attempts is set to 7 because if we use binary search to find the t
 // Pseudocode
 
 import Scanner from java.util
-
 class NumberGuessing {
   main(args) {
     // Initialize rounds, attempts and score variables
@@ -23,7 +22,6 @@ class NumberGuessing {
     attempts = 7
     score = 0
     scanner = new Scanner(System.in)
-
     // Loop for number of rounds
     for round = 1 to rounds {
       // Initialize target to a random value between 1 and 100
