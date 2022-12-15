@@ -14,46 +14,46 @@ The number of attempts is set to 7 because if we use binary search to find the t
 
 // Pseudocode
 
-class NumberGuessing {
-  main(args) {
-    // Initialize rounds, attempts and score variables
-    rounds = 3
-    attempts = 7
-    score = 0
-    scanner = new Scanner(System.in)
+    class NumberGuessing {
+      main(args) {
+        // Initialize rounds, attempts and score variables
+        rounds = 3
+        attempts = 7
+        score = 0
+        scanner = new Scanner(System.in)
 
-    // Loop for number of rounds
-    for round = 1 to rounds {
-      // Initialize target to a random value between 1 and 100
-      target = random value between 1 and 100
+        // Loop for number of rounds
+        for round = 1 to rounds {
+          // Initialize target to a random value between 1 and 100
+          target = random value between 1 and 100
 
-      print empty line
-      print round header
+          print empty line
+          print round header
 
-      // Loop for number of attempts
-      for attempt = 1 to attempts {
-        print empty line
-        print number of attempts remaining
-        print prompt to guess a number
+          // Loop for number of attempts
+          for attempt = 1 to attempts {
+            print empty line
+            print number of attempts remaining
+            print prompt to guess a number
 
-        // Read user input
-        answer = read input from scanner
+            // Read user input
+            answer = read input from scanner
 
-        if answer is correct {
-          print success message
-          update score
-          break out of attempts loop
-        } else {
-          if answer is greater than target {
-            print message indicating target is less than answer
-          } else {
-            print message indicating target is greater than answer
+            if answer is correct {
+              print success message
+              update score
+              break out of attempts loop
+            } else {
+              if answer is greater than target {
+                print message indicating target is less than answer
+              } else {
+                print message indicating target is greater than answer
+              }
+            }
           }
         }
+        close scanner
+        print empty line
+        print total score
       }
     }
-    close scanner
-    print empty line
-    print total score
-  }
-}
