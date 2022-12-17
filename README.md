@@ -1,7 +1,9 @@
 # Explanation of the code:-
 
 => The code is a number guessing game implemented in Java
+
 => The program generates a random number between 1 and 100 and prompts the user to guess it
+
 => The user has a certain number of attempts to guess the correct number
 => If the user's guess is correct, the program prints a success message and updates the user's score
 => If the user's guess is incorrect, the program gives the user a hint if the target number is greater or less than the user's guess
