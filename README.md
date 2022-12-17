@@ -1,4 +1,4 @@
-// Explanation of the code
+# Explanation of the code:-
 
 => The code is a number guessing game implemented in Java
 => The program generates a random number between 1 and 100 and prompts the user to guess it
@@ -20,9 +20,7 @@
 
 
 
-
-
-// Methodolgy of choosing 3 rounds and 7 attempts
+# Methodolgy of choosing 3 rounds and 7 attempts:-
 
 => The code is a number guessing game implemented in Java
 => The program generates a random number between 1 and 100 and prompts the user to guess it
@@ -31,7 +29,7 @@
 => At the end of all the rounds, the program prints the user's final score and uses the Scanner class from the java.util package to read input from the command line
 
 
-// Pseudocode
+# Pseudocode
 
     class NumberGuessing {
       main(args) {
