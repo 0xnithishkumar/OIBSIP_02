@@ -35,47 +35,13 @@
 
 
 # Pseudocode
-
-    class NumberGuessing {
-      main(args) {
-        // Initialize rounds, attempts and score variables
-        rounds = 3
-        attempts = 7
-        score = 0
-        scanner = new Scanner(System.in)
-
-        // Loop for number of rounds
-        for round = 1 to rounds {
-          // Initialize target to a random value between 1 and 100
-          target = random value between 1 and 100
-
-          print empty line
-          print round header
-
-          // Loop for number of attempts
-          for attempt = 1 to attempts {
-            print empty line
-            print number of attempts remaining
-            print prompt to guess a number
-
-            // Read user input
-            answer = read input from scanner
-
-            if answer is correct {
-              print success message
-              update score
-              break out of attempts loop
-            } else {
-              if answer is greater than target {
-                print message indicating target is less than answer
-              } else {
-                print message indicating target is greater than answer
-              }
-            }
-          }
-        }
-        close scanner
-        print empty line
-        print total score
-      }
-    }
+- Initialize variables rounds, attempts, and score to 3, 7, and 0 respectively. Create a Scanner object for reading user input.
+- Loop for the number of rounds (3):
+- - Generate a random number between 1 and 100 and store it in a variable called target.
+- - Print an empty line and the round header.
+- - Loop for the number of attempts (7):
+- - - Print an empty line, the number of attempts remaining, and a prompt for the user to guess a number.
+- - - Read the user's input and store it in a variable called answer.
+- - - If answer is correct, print a success message, increase score by 1, and break out of the attempts loop.
+- - - If answer is not correct, print a message indicating whether the target is greater or less than answer.
+- Close the Scanner object and print the total score.
