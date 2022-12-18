@@ -35,8 +35,8 @@
    - Generate a random number between 1 and 100 and store it in a variable called target.
    - Print an empty line and the round header.
    - Loop for the number of attempts (7):
-     - - Print an empty line, the number of attempts remaining, and a prompt for the user to guess a number.
-     - - Read the user's input and store it in a variable called answer.
-     - - If answer is correct, print a success message, increase score by 1, and break out of the attempts loop.
-     - - If answer is not correct, print a message indicating whether the target is greater or less than answer.
+     - Print an empty line, the number of attempts remaining, and a prompt for the user to guess a number.
+     - Read the user's input and store it in a variable called answer.
+     - If answer is correct, print a success message, increase score by 1, and break out of the attempts loop.
+     - If answer is not correct, print a message indicating whether the target is greater or less than answer.
 3) Close the Scanner object and print the total score.
