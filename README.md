@@ -20,7 +20,7 @@
 
 
 
-# 2) Methodolgy of choosing 3 rounds and 7 attempts:-
+# Methodolgy of choosing 3 rounds and 7 attempts:-
 
 - The code is a number guessing game implemented in Java
 
@@ -34,7 +34,7 @@
 
 
 
-# 3) Pseudocode
+# Pseudocode
 - Initialize variables rounds, attempts, and score to 3, 7, and 0 respectively. Create a Scanner object for reading user input.
 - Loop for the number of rounds (3):
 - - Generate a random number between 1 and 100 and store it in a variable called target.
