@@ -1,4 +1,4 @@
-# 1) Explanation of the code:-
+# Explanation of the code:-
 
 - The code is a number guessing game implemented in Java. The program generates a random number between 1 and 100 and prompts the user to guess it
 
