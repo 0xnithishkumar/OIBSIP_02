@@ -1,4 +1,10 @@
-# Explanation of the code:-
+# Contents
+# 1) Explanation of the code
+# 2) Methodolgy of choosing 3 rounds and 7 attempts
+# 3) Pseudocode
+
+
+# 1) Explanation of the code:-
 
 - The code is a number guessing game implemented in Java. The program generates a random number between 1 and 100 and prompts the user to guess it
 
