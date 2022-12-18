@@ -22,16 +22,11 @@
 
 # Methodolgy of choosing 3 rounds and 7 attempts:-
 
-- The code is a number guessing game implemented in Java
+- Binary search is a search algorithm that enables the efficient location of a specific value within a sorted list of values. The algorithm achieves this by repeatedly dividing the list in half and determining which half of the list the sought value is likely to be located in, based on its value in relation to the midpoint of the list. In the worst case scenario, it would take at most 7 iterations of this process to locate a value between 1 and 100 within a sorted list using binary search.
+ 
+- To increase the accuracy of the search results, it is often beneficial to perform the search multiple times, referred to as "rounds." This serves to confirm the results and can help to identify any potential errors or inconsistencies. In this instance, we will execute the search a total of 3 rounds to enhance the reliability of the results.
 
-- The program generates a random number between 1 and 100 and prompts the user to guess it
-
-- The user has a certain number of attempts to guess the correct number and the program gives hints if the guess is incorrect
-
-- The program allows the user to play a certain number of rounds, and the user's score is updated after each round
-
-- At the end of all the rounds, the program prints the user's final score and uses the Scanner class from the java.util package to read input from the command line
-
+- The number of attempts required in the worst case scenario is 7. In order to confirm the results and increase the reliability of the search, multiple rounds can be performed. In this case, 3 rounds will be conducted, resulting in a total of 7 attempts. This demonstrates the efficiency of the binary search method in finding a specific number within a sorted list of numbers within a limited number of attempts.
 
 
 # Pseudocode
